@@ -1,0 +1,109 @@
+/* WebSite Name: dapp
+   Made by: Ritesh Gorle
+   Created: Nov 2022
+    Content: COINS
+*/
+
+/*****************************************
+Table Of Contents:
+
+01. BASIC CSS Style
+SECTION 01: LOGO AND NAVIGATION
+SECTION 02: TOKEN AND COINS
+
+******************************************/
+
+
+/******************************/
+/*   01. BASIC CSS Style      */
+/******************************/   
+
+@media screen and (min-width: 0px) and (max-width: 1200px) {
+  #my-content { display: none; }  /* hide it elsewhere */
+
+  
+}
+
+@media screen and (min-width: 1201px) and (max-width: 4000px) {
+  #my-content { display:block; }  /* show it on big screens */
+   
+}
+
+
+/******************************/
+/*   02. LOGO AND NAVIGATION   */
+/******************************/  
+.navbar{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.nav-link{
+  font-size: 16px;
+ font-weight: 600;
+}
+
+.top1{
+  font-size: 14px;
+
+}
+
+#id1 {
+  margin-left: 300px;
+}
+
+
+/******************************/
+/*   03. TOKEN AND COINS      */
+/******************************/  
+
+.heading1{
+	font-size: 18px;
+}
+
+.heading2{
+	font-size: 14px;
+}
+
+.vl {
+  border-left: 5px solid blue;
+  height: 20px;
+  float: left;
+}
+
+
+
+.btn-sm{
+  color: white;
+  border: 1px #6666ff;
+  border-radius: 20px;
+  font-size: 14px;
+  background: #6666ff;
+}
+
+
+.SEARCH-BOX {
+  position: relative;
+  color: #aaa;
+  font-size: 16px;
+}
+
+.SEARCH-BOX {display: inline-block;}
+
+.SEARCH-BOX input {
+  width: 250px;
+  height: 32px;
+  background: #fcfcfc;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+}
+
+.SEARCH-BOX input { text-indent: 32px;}
+.SEARCH-BOX .fa-search { 
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.SEARCH-BOX .fa-search {left: auto; right: 230px;}
